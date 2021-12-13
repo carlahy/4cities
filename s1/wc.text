@@ -1,48 +1,3 @@
-\documentclass{article}
-
-\usepackage[utf8]{inputenc}
-\usepackage[normalem]{ulem}
-\usepackage[left=1.25in,right=1.25in,bottom=1.25in]{geometry}
-\usepackage{setspace}\doublespacing
-\setlength\parindent{0pt}
-\setlength{\parskip}{1em}
-\setcounter{secnumdepth}{0}
-\usepackage{outlines}
-\usepackage{graphicx}
-\graphicspath{ {imgs} }
-\usepackage{hyperref}
-\usepackage{tabularx}
-\usepackage{color,soul}
-
-\usepackage[
-backend=biber,
-style=apa,
-citestyle=authoryear,
-sorting=nyt,
-]{biblatex}
-\addbibresource{references.bib}
-
-\title{todo: Astana, a post-socialist city between East and West}
-%\subtitle{To what extent can (post-)socialism explain the contemporary socio-economic structure of Astana?}
-\author{Carla Hyenne}
-\date{\today}
-
-\begin{document}
-
-\maketitle 
-
-\textit{Literal research question: To what extent are imperial and colonial relations relevant for understanding the contemporary structure (economic and/or social and/or cultural) of your city?}
-
-\textit{Word count excluding abstract and bibliography: 3745}
-
-\section{Abstract}
-
-Post-socialism is a concept that characterises ex-Soviet cities after independence from, and the dissolution of, the Soviet Union in 1991.
-Astana is the capital of Kazakhstan, and was created by authoritarian president Nazarbayev in direct response to Kazakhstan's independence. At the same time, the country was undergoing projects of nation building, state building, and economic recovery. In this sense Astana it was never a city under socialism, but still exhibits features of post-socialist cities. In this paper, we use post-socialist theory and take an empirical approach to understand to what extent Astana's contemporary socio-economic structure can be explained by post-socialism. 
-We focus on the marketisation of the economy and the stratification of society. 
-More than thirty years after Soviet independence, it becomes apparent that cities like Astana warrant a new theory. Do mainstream, neoliberal, western-centric theories apply? We will discuss Astana's position between Europe and Russia in a globalising world, and whether conventional theories are useful. The conclusion is that neoliberal globalisation does not fully explain Astana today. The government's political and economic ambitions for the country are elsewhere, and are to be understood as an amalgam of ideologies from the east and the west.
-
-\section{Introduction}
 
 The dissolution of the Soviet union in 1991 left in its wake an enormous project for the ex-Soviet states in East Central Europe and Central Asia. The processes of nation building, state building, and economic reform that ensued greatly defined the countries we know today. It is particularly interesting to analyse Astana in the context of post-socialist cities, because of the way it came to be Kazakhstan's capital. 
 Until 1994, the capital was Almaty - the biggest city still today. However, it made strategic sense to move the capital to a more north-central location. 
@@ -186,11 +141,3 @@ In conclusion, Astana is undeniably a post-socialist city. Imagined and built fr
 
 At times, it seems odd to apply post-socialist theory to a city that never existed under socialism per se. Plus, what is taking place today can no longer be explained purely with post-socialism. On the other hand, the mainstream theories for capitalist cities are not fully appropriate for Astana, either. In the end, post-socialist urban theory can help us understand the forces that shaped the capital since the 1990s, even if the city begs for a new analysis.
 And perhaps, without a Soviet past, Astana would still be called Astana, and not Nur-Sultan - even if the name still lingers, either out of habit or resistance.
-
-\pagebreak
-
-\printbibliography
-
-\end{document}
-
-

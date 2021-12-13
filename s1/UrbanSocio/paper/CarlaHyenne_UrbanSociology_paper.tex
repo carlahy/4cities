@@ -11,15 +11,25 @@
 \usepackage{hyperref}
 \usepackage{color,soul}
 
-\title{Urban Economic Geography}
-\author{Carla Hyenne }
+\usepackage[
+backend=biber,
+style=apa,
+citestyle=authoryear,
+sorting=nyt,
+]{biblatex}
+\addbibresource{references.bib}
+
+\title{Urban Sociology Paper}
+\author{Carla Hyenne}
+\date{January 16th, 2021}
 
 \begin{document}
 
 \maketitle
 
-\tableofcontents
-
+\parencite{brictv}
 \pagebreak
+
+\printbibliography
 
 \end{document}
