@@ -2,7 +2,7 @@
 \documentclass{article}[11pt]
 
 \usepackage[utf8]{inputenc}
-\usepackage[margin=1in]{geometry}
+\usepackage[margin=1.25in]{geometry}
  \usepackage{setspace} \onehalfspacing
 \setlength\parindent{0pt}
 \setlength{\parskip}{1em}
@@ -14,8 +14,8 @@
 \graphicspath{ {imgs} }
 \usepackage[normalem]{ulem}
 \usepackage{hyperref}
-\usepackage{enumerate}
 \usepackage{comment}
+\pagenumbering{gobble}
 
 \usepackage[
 backend=biber,
@@ -31,18 +31,22 @@ sorting=nyt,
 
 \begin{document}
 
+\newgeometry{margin=0.5in, top=1in}
+
 \maketitle
 
 \begin{figure}[h!]
 	\centering
 	\captionsetup{labelformat=empty}
-	\includegraphics[width=\textwidth, angle=-90]{bxl_canal_far}
+	\includegraphics[width=0.85\textwidth, angle=-90]{bxl_canal_far}
 	\caption{View over Ninoofsepoort, from the rooftop of the MIMA museum. From the foreground to the background, we see: the canal over the Petite Senne; an art project from Antoine Caramalli along the canal walls; an undeveloped, overgrown, fenced off plot of land; to its left, tram lines which delimit the Sint-Jans-Molenbeek commune from Brussels Capital commune; further behind, the Ninoofsepoort Park; and the very brightly lit Rue Heyvaert.}
 \end{figure}
 
+\restoregeometry
+
 \pagebreak
 
-\begin{comment}
+\begin{comment} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 History of the ninoofsport: 
 - what it used to be, why it is now empty, when and who decided to build something on top
@@ -73,7 +77,7 @@ Other notes:
 
 - Relate to lecture 5, and gentrification: using MIMA as a regeneration project
 
-\end{comment}
+\end{comment} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 The photo is a view over Ninoofsepoort, or Ninoof's Door. The name of this triangular plot of land is a symbolic one. Located on the edge of the Brussel's canal, it was once a city gate that provided entry to the historical city centre of Brussels. 
 
