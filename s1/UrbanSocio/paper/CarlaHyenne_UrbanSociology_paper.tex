@@ -10,8 +10,21 @@
 \usepackage{graphicx}
 \graphicspath{ {imgs} }
 \usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{longtable}
 \usepackage{color,soul}
 \usepackage{comment}
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=0pt}
+\usepackage{changepage}
+
+% defines \RaggedRight
+\usepackage{ragged2e}
+% for nicer table rules
+\usepackage{booktabs}
+% define a new column type for convenience
+%\newcolumntype{L}[1]{>{\hsize=#1\hsize\RaggedRight} X}
+\newcolumntype{L}{>{\raggedright\arraybackslash}}
 
 \usepackage[
 backend=biber,
@@ -121,6 +134,7 @@ Lack of opportunities to exert agency for workers in the gig economy, because of
 
 \section{Research methodology}
 
+%%%%%%%%%%%%%%%%%%%%
 \begin{comment}
 
 The research methods appropriate for the proposed research
@@ -129,66 +143,69 @@ If you plan to conduct field work or collect empirical data, you should provide 
 Qualitative research: find meanings, opinions, underlying reasons from people; unstructured or semi structured; relatively small sample size; conversational; provides insights, in depth information; focus groups, experiments, interviews,...
 
 \end{comment}
+%%%%%%%%%%%%%%%%%%%%
 
 The research will rely extensively on interactions with actors related to the movement like LDU members and organisers, Latino and non-Latino delivery workers, organisations like WJP and 32BJ, admins of Whatsapp and Facebook groups for delivery workers, etc. If possible, speaking with the local police departments and the local government will give an outside perspective to the movement.
 
-The research will be qualitative. I will conduct semi-structured interviews with the different actors. The first point of contact will be LDU, because they have contact details online and will be able to provide further contacts. My connections will be made by recommendation of someone, by someone.
+The research will be qualitative. I will conduct semi-structured interviews with the different actors. The first point of contact will be LDU, because they have contact details online and will be able to provide further contacts. My connections will be made by recommendation of someone, by someone. Below, I outline the general interview interests by actor, and they may contribute to answering the research question.
 
-Actors
-What knowledge they can bring
-What question they help answer
-Los Deliveristas Unidos
-How was LDU formed?
-What is the internal organisation?
-Who are the stakeholders? What are their responsibilities?
-What relations does LDU have with external organisations/institutions (governments, digital platforms, gig-economy movements, delivery workers, etc.)?
-Specialised Resources
-
-Institutional structures in the city
-
-
-
-
-Members and organisers of Facebook/Whatsapp groups for delivery workers 
-Why, how and by who were the groups started?
-How has LDU changed the groups? Do they exist today? What are the groups’ relations to LDU? How are they similar or different in their goals, communications and actions?
-Communities, neighbourhoods and networks
-
-Specialised Resources
-
-
-Self-organised interventions such as the night-watch on Willis Avenue Bridge
-Why, how and by who were the groups started?
-How has LDU changed the interventions? Do they still take place? How, if at all, are the interventions coordinated with LDU? How are they similar or different in their goals, communications and actions?
-Communities, neighbourhoods and networks
-
-Specialised Resources
-
-
-Latino food delivery workers
-Where they live, how they experience their neighbourhood, what is their community(ies), their background and experience as delivery workers
-Are they involved with LDU? If yes, why and how did they get involved, what is their role in LDU. If not, why not, what is preventing them from joining
-Are they part of other movements?
-Does LDU represent their aspirations?
-Communities, neighbourhoods and networks
-
-Specialised Resources
-
-
-Non-Latino food delivery workers (eg. Asian, Black, White, etc.)
-Where they live, how they experience their neighbourhood, what is their community(ies), their background and experience as delivery workers
-Are they involved with LDU? If yes, why and how did they get involved, what is their role in LDU. If not, why not, what is preventing them from joining
-Are they part of other movements?
-How does the fact that LDU is mostly Latino influence their experience, and the outcome of the movement in their opinion?
-Does LDU represent their aspirations?
-Communities, neighbourhoods and networks
-
-Specialised Resources
-
-
-
-An non-exhaustive list of actors who will be interviewed, what knowledge they will bring, and how that will help answer the research question.
-
+\setlength\LTleft{-3cm}
+\begin{longtable}{ Lp{.35\textwidth} Lp{.60\textwidth} Lp{.4\textwidth}}
+\toprule
+\textbf{Actors} & \textbf{What knowledge they can bring} & \textbf{What question they help answer}  \\
+\midrule
+Los Deliveristas Unidos & 
+	\begin{outline}
+		\1 How was LDU formed?
+		\1 What is the internal organisation?
+		\1 Who are the stakeholders? What are their responsibilities?
+		\1 What relations does LDU have with external organisations/institutions (governments, digital platforms, gig-economy movements, delivery workers, etc.)?
+		\end{outline} &
+	Specialised Resources; Institutional structures in the city \\ 
+	\hline
+	Members and organisers of Facebook/Whatsapp groups for delivery workers & 
+	\begin{outline}
+		\1 Why, how and by who were the groups started?
+		\1 How has LDU changed the groups? Do they exist today? What are the groups’ relations to LDU? How are they similar or different in their goals, communications and actions?
+delivery workers, etc.)?
+		\end{outline} &
+	Communities, neighbourhoods and networks; Specialised Resources  \\ 
+	\hline
+	Self-organised interventions such as the night-watch on Willis Avenue Bridge &
+	\begin{outline}
+		\1 Why, how and by who were the groups started?
+		\1 How has LDU changed the interventions? Do they still take place? How, if at all, are the interventions coordinated with LDU? How are they similar or different in their goals, communications and actions?
+		\end{outline} &
+	Communities, neighbourhoods and networks; Specialised Resources  \\ 
+	\hline
+	Latino food delivery workers &
+	\begin{outline}
+		\1 Where they live, how they experience their neighbourhood, what is their community(ies), their background and experience as delivery workers
+		\1 Are they involved with LDU? If yes, why and how did they get involved, what is their role in LDU. If not, why not, what is preventing them from joining
+		\1 Are they part of other movements?
+		\1 Does LDU represent their aspirations?
+	\end{outline} &
+	Communities, neighbourhoods and networks; Specialised Resources  \\ 
+	\hline
+	Non-Latino food delivery workers (eg. Asian, Black, White, etc.) &
+	\begin{outline}
+		\1 Where they live, how they experience their neighbourhood, what is their community(ies), their background and experience as delivery workers
+		\1 Are they involved with LDU? If yes, why and how did they get involved, what is their role in LDU. If not, why not, what is preventing them from joining
+		\1 Are they part of other movements?
+		\1 How does the fact that LDU is mostly Latino influence their experience, and the outcome of the movement in their opinion?
+		\1 Does LDU represent their aspirations?
+	\end{outline} &
+	Communities, neighbourhoods and networks; Specialised Resources  \\ 
+	\hline
+	Local governments and police departments &
+	\begin{outline}
+		\1 TODO
+	\end{outline} &
+	Institutional structures in the city  \\ 
+\bottomrule
+\caption{An non-exhaustive list of actors who will be interviewed, what knowledge they will bring, and how that will help answer the research question.}
+\label{table:interviews}
+\end{longtable}
 
 \subsection{Limits of the Research}
 
