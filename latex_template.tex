@@ -11,6 +11,7 @@
 \graphicspath{ {imgs} }
 \usepackage{hyperref}
 \usepackage{color,soul}
+\usepackage[normalem]{ulem}
 
 \usepackage[
 backend=biber,
@@ -18,7 +19,7 @@ style=apa,
 citestyle=authoryear,
 sorting=nyt,
 ]{biblatex}
-\addbibresource{exam.bib}
+\addbibresource{refs.bib}
 
 \usepackage{comment}
 \specialcomment{topicsen}{\begingroup\bfseries\scriptsize}{\endgroup}
@@ -43,5 +44,8 @@ sorting=nyt,
 \tableofcontents
 
 \pagebreak
+
+
+\printbibliography
 
 \end{document}
