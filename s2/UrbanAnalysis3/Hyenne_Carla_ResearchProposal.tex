@@ -14,6 +14,7 @@
 \usepackage{color,soul}
 \usepackage[normalem]{ulem}
 \usepackage{tabularx}
+\usepackage{pgfgantt}
 
 \usepackage[
 backend=biber,
@@ -202,7 +203,7 @@ Field observations will consist of structured quantitative data and qualitative 
 
 Observations will be combined with rapid interviews with UBS users. The aim of these interviews is to gather more personal data, to gain more insights on people’s perception of UBS. Specifically, I will ask users what they are doing at the site, or what they usually like to do; why they choose to come here; how often they visit and how far they travel; if there is anything preventing them from accessing the site; where else they like to go that is close to the water; what do they particularly enjoy at this or other sites; when was the first time they visited the site, and if they have noticed changes since; and on a scale, how safe/clean/attractive the space is.
 
-\begin{center}
+\begin{figure}[htp]
 \begin{tabularx}{\textwidth} { 
   | >{\raggedright\arraybackslash}X 
   | >{\raggedright\arraybackslash}X 
@@ -219,7 +220,8 @@ Observations will be combined with rapid interviews with UBS users. The aim of t
   & Reasons for choosing this particular space; perceived accessibility barriers; how people feel about the space; how people feel this space compares to other UBS they know \\ 
   \hline
 \end{tabularx}
-\end{center}
+\caption{A summary table of the data collection methods, what data they will help collect, and the purpose of collecting this data for the research}
+\end{figure}
 
 \subsubsection{Data analysis}
 
@@ -239,14 +241,15 @@ Analysing the qualitative and quantitative data from observations of UBS and sho
 
 \subsubsection{The context of Copenhagen}
 
-To assess the opportunities for accessing UBS in everyday life, the sites should be located in a single city. Copenhagen makes for an interesting case for the following four reasons. First, Copenhagen is located on the Kattegat strait and has 92 km of coastline \parencite{Comertler2017} and water features prominently in the urban landscape. Second, due to the amount of shoreline in Copenhagen and the city trying to position itself as a world leader in sustainability, there have been many blue space rehabilitation projects since 2002. Today, there are four harbour baths (Island Brygge, Fisketorvet, Sandkaj and Sluseholmen) and various urban beaches (Amager Strandpark, Svanemølle) \parencite{VisitCopenhagen}. Third, Copenhagen is experiencing an increase in poverty and ethnic segregation \parencite{Moller and Larsen 2015}, as well as a growing racist discourse in the media and politics. For example, through the classification of some neighbourhoods as ‘ghettos’ \parencite{Simonsen 2008}. This evolving socio-economic landscape and its surrounding discourse make it important to understand who feels like they can access UBS, and who might not. Finally, Copenhagen’s reputation as “the most liveable city” \parencite{VisitDenmark 2021}, due in part to the swimming spots in the harbour, begs the question - for whom is the city liveable?
+To assess the opportunities for accessing UBS in everyday life, the sites should be located in a single city. Copenhagen makes for an interesting case for the following four reasons. First, Copenhagen is located on the Kattegat strait and has 92 km of coastline \parencite{Comertler2017} and water features prominently in the urban landscape. Second, due to the amount of shoreline in Copenhagen and the city trying to position itself as a world leader in sustainability, there have been many blue space rehabilitation projects since 2002. Today, there are four harbour baths (Island Brygge, Fisketorvet, Sandkaj and Sluseholmen) and various urban beaches (Amager Strandpark, Svanemølle) \parencite{visitcopenhagen_baths}. Third, Copenhagen is experiencing an increase in poverty and ethnic segregation \parencite{moller2015socioeconomic}, as well as a growing racist discourse in the media and politics. For example, through the classification of some neighbourhoods as ‘ghettos’ \parencite{simonsen2008practice}. This evolving socio-economic landscape and its surrounding discourse make it important to understand who feels like they can access UBS, and who might not. Finally, Copenhagen’s reputation as “the most liveable city” \parencite{visitdenmark_2021}, due in part to the swimming spots in the harbour, begs the question - for whom is the city liveable?
 
 \subsubsection{Potential cases}
 
 With Copenhagen as a location for the research, specific units of analysis must be defined. Every UBS and neighbourhood will have a different set of social, economic, political, cultural or environmental conditions which influence who uses the space, why, and how they feel. In order to uncover these conditions, the units of analysis should be scoped to specific locations on the water where people can carry out a multitude of activities like sitting, swimming, XX. The sites should have been rehabilitated by the city, be public and free to use. 
 Since my research is focusing on perceived accessibility, which is rooted in socio-economic, cultural and personal characteristics, the UBS should be located in neighbourhoods distinct socio economic status. Social economic status (SES) is recognised as influencing perceived access to UGS, with scholars like Wang, Brown and Liu showing that people in neighbourhoods with lower SES have lower perceived accessibility to parks (\citeyear{wang2015physical}).
 
-The maps below (ref. figure 1-3?) represent income and citizenship statistics of neighbourhoods in Copenhagen. These statistics and the list of harbour baths and beaches on the VisitCopenhagen website \parencite{visitcopenhagen} served to shortlist five UBS: the Sandkaj harbour bath, the Svanemøle beach, the Sluseholmen harbour bath, the Amager beach and the Kastrup sea bath (see Figure 4). I will most likely not be able to collect on all five spaces, but at this stage a more detailed neighbourhood analysis and a visit to the spaces is required to make a final decision.
+The maps below (ref. figure 1-3?) represent income and citizenship statistics of neighbourhoods in Copenhagen. These statistics and the list of harbour baths and beaches on the VisitCopenhagen website \parencite{visitcopenhagen} served to shortlist five UBS: the Sandkaj harbour bath, the Svanemøle beach, the Sluseholmen harbour bath, the Amager beach and the Kastrup sea bath (see Figure 4). I will most likely not be able to collect on all five spaces, but at this stage a more detailed neighbourhood analysis and a visit to the spaces is required to make a final decision. 
+I also considered inland UBS such as lakes or rivers, which would be interesting to compare with the high-profile harbours and beaches. However I could not identify any that seemed like places that people considered particularly valuable (ie. not possible to linger, swim, play sports, fish, etc.). Visiting these places might change my this interpretation.
 
 \hl{<Figure 2: map of copenhagen neighbourhood income statistics>}
 \hl{<Figure 3: map of copenhagen neighbourhood population statistics>}
@@ -261,7 +264,11 @@ The maps below (ref. figure 1-3?) represent income and citizenship statistics of
 
 \bisection{Kastrup Sea Bath} is just south of Amager beach, with views of Saltholm Island and Sweden, equipped with an award-winning architectural structure made of African azobe wood highly resistant to weathering and pests. It is equipped with changing rooms, showers, lockers, swimming facilities, and people can dive from the structure. The water around the structure is deep and thus not ideal for children or those uncomfortable in such waters.
 
-\hl{Figure 4: a map of Copenhagen with the shortlisted blue spaces (blue dots) in their respective District/Neighbourhood (yellow areas labelled with yellow squares)}
+\begin{figure}[htp]
+	\includegraphics[width=\textwidth]{copenhagen_blue_spaces.png}
+	\caption{A map of Copenhagen with the shortlisted blue spaces (blue dots) in their respective District/Neighbourhood (yellow areas labelled with yellow squares)}
+\end{figure}
+
 
 \begin{comment}
 
@@ -278,6 +285,24 @@ Ultimately, unequal access to blue space is an environmental injustice and this 
 
 \section{Timeline and feasibility}
 
+UBS visits are highly dependent on the weather, meaning that people spend much more time at the water in summer than winter. Therefore, I aim to collect my data starting in August and going up to November. This should allow me to capture a wide range of users and uses, especially given that swimming culture is big in Denmark and people do use UBS all year. I will also be collecting data at different times of the day (morning, afternoon, evening) and week (weekdays, weekend, holidays).
+
+\begin{ganttchart}[
+hgrid,
+vgrid,
+expand chart=\textwidth,
+time slot format=isodate-yearmonth,
+time slot unit=month
+]{2022-03}{2023-06}
+\gantttitlecalendar{year, month} \\
+\ganttbar{Thesis proposal}{2022-03}{2022-06} \\
+\ganttbar{Create collection guides}{2022-07}{2022-07} \\
+\ganttbar{Data collection}{2022-08}{2022-11} \\
+\ganttbar{Literature review}{2022-09}{2022-11} \\
+\ganttbar{Data analysis}{2022-12}{2023-03} \\
+\ganttbar{Writing report}{2023-03}{2023-06} \\
+\ganttmilestone{Thesis defence}{2023-06}
+\end{ganttchart}
 
 \section{Conclusion}
 
