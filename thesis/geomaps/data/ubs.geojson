@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "A"
+        "name": "Sluseholmen"
        },
       "geometry": {
         "type": "Point",
@@ -17,7 +17,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "B"
+        "name": "Amager"
       },
       "geometry": {
         "type": "Point",
@@ -30,7 +30,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "C"
+        "name": "Kastrup"
       },
       "geometry": {
         "type": "Point",
@@ -43,7 +43,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "D"
+        "name": "Sandkaj"
       },
       "geometry": {
         "type": "Point",
@@ -56,7 +56,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "E"
+        "name": "Svanemøle"
       },
       "geometry": {
         "type": "Point",
