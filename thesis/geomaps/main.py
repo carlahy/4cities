@@ -27,7 +27,6 @@ def getEduStyle(e):
 
 districts = ['Osterbro', 'Valby', 'Vesterbro', 'Kongens Enghave', 'Amager Ost', 
 'Bronshoj-Husum', 'Norrebro', 'Indre By', 'Bispebjerg', 'Amager Vest', 'Vanlose', 'Christianshavn'] 
->>>>>>> notes
 districts_dict = {} 
 for d in districts:
   districts_dict[d] = {}
