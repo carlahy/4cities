@@ -15,6 +15,19 @@ and Hewitt, C Nicholas},
   publisher={ACS Publications}
 }
 
+@article{kimic2021assessment,
+  title={Assessment of blue and green infrastructure solutions in 
+shaping urban public spaces—spatial and functional, environmental, and 
+social aspects},
+  author={Kimic, Kinga and Ostrysz, Karina},
+  journal={Sustainability},
+  volume={13},
+  number={19},
+  pages={11041},
+  year={2021},
+  publisher={MDPI}
+}
+ 
 @article{ghofrani2017comprehensive,
   title={A comprehensive review of blue-green infrastructure concepts},
   author={Ghofrani, Zahra and Sposito, Victor and Faggian, Robert},
@@ -101,9 +114,7 @@ author={{City of Copenhagen}}
 } 
 
 @article{wang2015comparison,
-  title={The physical and non-physical factors that influence perceived 
-acces$  title={A comparison 
-of perceived and geographic access to predict urban park use},
+  title={A comparison of perceived and geographic access to predict urban park use},
   author={Wang, Dong and Brown, Gregory and Liu, Yan and Mateo-Babiano, Iderlina},
   journal={Cities},
   volume={42},
